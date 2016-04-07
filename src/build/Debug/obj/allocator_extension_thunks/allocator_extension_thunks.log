@@ -1,0 +1,20 @@
+﻿Build started 2016/4/7 8:35:31.
+     1>Project "F:\opensources\chromium_base\src\base\allocator\allocator_extension_thunks.vcxproj" on node 6 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "..\..\build\Debug\obj\allocator_extension_thunks\allocator_extension_thunks.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\third_party\wtl\include /I..\.. /I"C:\Program Files (x86)\Windows Kits\8.0\Include\shared" /I"C:\Program Files (x86)\Windows Kits\8.0\Include\um" /I"C:\Program Files (x86)\Windows Kits\8.0\Include\winrt" /I"C:\Program Files (x86)\Microsoft Visual Studio 10.0\\VC\atlmfc\include" /Zi /nologo /W3 /WX /Od /Oy- /D _DEBUG /D ANGLE_DX11 /D _WIN32_WINNT=0x0602 /D WINVER=0x0602 /D WIN32 /D _WINDOWS /D NOMINMAX /D PSAPI_VERSION=1 /D _CRT_RAND_S /D CERT_CHAIN_PARA_HAS_EXTRA_FIELDS /D WIN32_LEAN_AND_MEAN /D _ATL_NO_OPENGL /D _HAS_EXCEPTIONS=0 /D _SECURE_ATL /D CHROMIUM_BUILD /D TOOLKIT_VIEWS=1 /D USE_LIBJPEG_TURBO=1 /D ENABLE_ONE_CLICK_SIGNIN /D ENABLE_REMOTING=1 /D ENABLE_WEBRTC=1 /D ENABLE_PEPPER_CDMS /D ENABLE_CONFIGURATION_POLICY /D ENABLE_INPUT_SPEECH /D ENABLE_NOTIFICATIONS /D ENABLE_GPU=1 /D ENABLE_EGLIMAGE=1 /D __STD_C /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D NTDDI_VERSION=0x06020000 /D ENABLE_TASK_MANAGER=1 /D ENABLE_EXTENSIONS=1 /D ENABLE_PLUGIN_INSTALLATION=1 /D ENABLE_PLUGINS=1 /D ENABLE_SESSION_SERVICE=1 /D ENABLE_THEMES=1 /D ENABLE_AUTOFILL_DIALOG=1 /D ENABLE_BACKGROUND=1 /D ENABLE_AUTOMATION=1 /D ENABLE_GOOGLE_NOW=1 /D ENABLE_FULL_PRINTING=1 /D ENABLE_PRINTING=1 /D ENABLE_SPELLCHECK=1 /D ENABLE_CAPTIVE_PORTAL_DETECTION=1 /D ENABLE_APP_LIST=1 /D ENABLE_SETTINGS_APP=1 /D ENABLE_MANAGED_USERS=1 /D ENABLE_MDNS=1 /D _CRT_NONSTDC_NO_WARNINGS /D _CRT_NONSTDC_NO_DEPRECATE /D DYNAMIC_ANNOTATIONS_ENABLED=1 /D WTF_USE_DYNAMIC_ANNOTATIONS=1 /D _UNICODE /D UNICODE /Gm- /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"..\..\build\Debug\obj\allocator_extension_thunks\\" /Fd"..\..\build\Debug\obj\allocator_extension_thunks\vc100.pdb" /Gd /TP /wd4351 /wd4355 /wd4396 /wd4503 /wd4819 /wd4100 /wd4121 /wd4125 /wd4127 /wd4130 /wd4131 /wd4189 /wd4201 /wd4238 /wd4244 /wd4245 /wd4310 /wd4428 /wd4481 /wd4505 /wd4510 /wd4512 /wd4530 /wd4610 /wd4611 /wd4701 /wd4702 /wd4706 /wd4800 /analyze- /errorReport:prompt allocator_extension_thunks.cc /MP 
+         allocator_extension_thunks.cc
+       MakeDirsForLib:
+         Creating directory "F:\opensources\chromium_base\src\base\allocator\..\..\build\Debug\lib".
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\build\Debug\lib\allocator_extension_thunks.lib" /LIBPATH:"C:/Program Files (x86)/Windows Kits/8.0/Lib/win8/um/x86" /NOLOGO ..\..\build\Debug\obj\allocator_extension_thunks\allocator_extension_thunks.obj /ignore:4221 
+         allocator_extension_thunks.vcxproj -> ..\..\build\Debug\lib\allocator_extension_thunks.lib
+       FinalizeBuildStatus:
+         Deleting file "..\..\build\Debug\obj\allocator_extension_thunks\allocator_extension_thunks.unsuccessfulbuild".
+         Touching "..\..\build\Debug\obj\allocator_extension_thunks\allocator_extension_thunks.lastbuildstate".
+     1>Done Building Project "F:\opensources\chromium_base\src\base\allocator\allocator_extension_thunks.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.32
